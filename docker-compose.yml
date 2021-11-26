@@ -1,0 +1,15 @@
+version: '3'
+services:
+  proxy:
+    image: webservercadastration
+    container_name: webservercontainer
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    networks:
+      - webnetwork
+
+networks:
+  webnetwork:
+    driver: bridge
