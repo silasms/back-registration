@@ -15,7 +15,7 @@ $ docker-compose up
 Os servidores estão iniciados.
 <h1>Instruções</h1>
 Existem 4 requisições.<br/>
-/usuario/save -> Método: POST - Ele salva os usuários no banco de dados
-/usuario/listall -> Método: GET - Lista todos usuários
-/usuario/delete/{id} -> Método: DELETE - Deleta o usuário
+/usuario/save -> Método: POST - Ele salva os usuários no banco de dados</br>
+/usuario/listall -> Método: GET - Lista todos usuários</br>
+/usuario/delete/{id} -> Método: DELETE - Deleta o usuário</br>
 /usuario/edit -> Método: PUT - Edita os usuários existentes
